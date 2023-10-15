@@ -1,0 +1,135 @@
+
+
+body
+{
+    background-color: #1e202b;
+}
+
+.back
+{
+    background-color: rgb(30, 32, 43) !important;
+   
+  
+}
+.container a 
+{
+    color: white !important;
+}
+.font
+{
+    line-height: 1.5px;
+    font-size: 11px;
+}
+
+.menu-btn 
+{
+    
+    padding: 0px 10px  ;  
+}
+
+.menu-btn a
+{
+    text-decoration: none;
+ 
+}
+.menu-btn:hover 
+{
+    border:solid 1px  rgb(0, 154, 216) ;
+    border-radius: 25px;
+    
+}
+ul  a:hover
+{
+    color: rgb(0, 154, 216) !important ;
+}
+.bg-img
+{
+    background-image: url(banner.png);
+    height: 30vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+}
+.weather-data 
+{
+    margin-top: -60px;
+}
+.inp
+{
+    background-color: #1e202b;
+    /* margin-top: 50px; */
+    border: #1e202b;
+   
+}
+
+.seacrh-location input[type="text"]
+{
+   
+    color: white;
+    padding: 20px 50px 20px 20px;
+    background: rgb(30, 32, 43);
+}
+.day-info
+{
+   border: 1px solid #262936;
+   background-color: #222530;
+}
+.photos
+{
+    color:#BFC1C8
+}
+.photos img
+{
+        width: 30%;
+}
+.day
+{
+    border: 1px solid #2D303D;
+    background-color: #2D303D;
+  
+}
+.dgree
+{
+    font-size: 70px;
+}
+
+.day-contnet
+{
+    background-color: #323544;
+    
+}
+.day-contnet1
+{
+    background-color: #262936;
+} 
+.icons i
+{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 1.7;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 22px;
+}
+.icons i:hover
+{
+    background-color: #009AD8;
+    color: white;
+}
+footer
+
+{
+background-color: #262936;
+}
+.subscribe-form input[type="text"]
+{
+    
+    background-color: #1e202b;
+    color: white;
+    border: 1px solid #1e202b;
+}

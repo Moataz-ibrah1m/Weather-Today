@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Today</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary back">
+    <div class="container my-4 ">
+      <a class="navbar-brand" href="#"> <i class="fa-solid fa-cloud"></i> Weather <br>
+        <span class="font">tagline goes here</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
+          <li class="nav-item mx-2 menu-btn">
+            <a class="nav-link active " aria-current="page" href="#"> Home</a>
+          </li>
+          <li class="nav-item mx-2 menu-btn">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item mx-2 menu-btn">
+            <a class="nav-link" href="#">Live Camera</a>
+          </li>
+          <li class="nav-item mx-2 menu-btn">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item mx-2 menu-btn">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="bg-img">
+      <div class="container w-75 ">
+        <div class="row">
+          <div class="input-seacrh  my-5">
+            <form class="seacrh-location d-flex justify-content-center align-items-center rounded-2 ">
+              <input type="text" placeholder="Find your location...." id="search"
+                class=" inp form-control py-3 rounded-5 ">
+              <input type="button" value="Find" id="submit" class="btn btn-primary px-5 py-3 rounded-5 ">
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container w-75">
+      <div class="row" id="rowData">
+        <div class=" weather-data  text-white   d-flex justify-content-center align-items-center border-3 ">
+          <div class="col-md-4 py-4   ">
+            <div class="day d-flex justify-content-between align-items-center ">
+              <p class="m-1 p-1" id="currentDay">Friday</p>
+              <p class="m-1 p-1 "  > <span id="dateNumb">7</span> 
+                <span id="currentMonth">August </span> 
+              </p>
+            </div>
+            <div class="day-contnet py-1 px-2">
+              <h3 id="cityName"></h3>
+              <div class="d-flex justify-content-evenly align-items-center fw-bolder dgree">
+                <span class="" id="currentTemp"> 25 </span>
+                <img src="Images/113.png" class="img " alt="" id="currentImg">
+              </div>
+      
+              <p class="text-primary" id="currentCondition"></p>
+              <div class="photos d-flex justify-content-around align-items-center ">
+                <span> <img src="Images/icon-umberella@2x.png"  alt="" id="currentHumidity"> 36 %</span>
+                <span> <img src="Images/icon-wind@2x.png" alt="" id="currentWind"> 18 km/h </span>
+                <span> <img src="Images/icon-compass@2x.png" alt="" id="currentDirection"> East</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4   py-4 ">
+            <div class="day-info text-center ">
+              <p class="m-1 p-1 nextDay">Tuesday</p>
+      
+            </div>
+            <div class="day-contnet1 py-4  text-center">
+              <img src="Images/113.png" alt="" class="nextConditionImg">
+              <h5 class="nextMaxTemp">39.6 <sup>o</sup> C</h5>
+              <p  class="nextMinTemp"> <sup>o</sup></p>
+              <p class="text-primary nextCondition"></p>
+            </div>
+          </div>
+          <div class="col-md-4   py-4 ">
+            <div class="day text-center">
+              <p class="m-1 p-1 nextDay" id="">Wednesday</p>
+      
+            </div>
+            <div class="day-contnet py-4 text-center d-flex justify-content-between align-items-center flex-column">
+              <img src="Images/113.png" alt="" class="nextConditionImg">
+              <h5 class="nextMaxTemp">39.6 <sup>o</sup> C</h5>
+              <p class="nextMinTemp">26.7 <sup>o</sup></p>
+              <p class="text-primary nextCondition"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class=" my-5">
+
+    <div class="container w-75">
+      <div class="row">
+        <div class="subscribe d-flex justify-content-center align-items-center my-3">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form d-flex justify-content-center align-items-center ">
+              <input type="text" placeholder="Enter your email to subscribe..." class="form-control-lg w-100  rounded-5">
+              <input type="submit" value="Subscribe" class="btn btn-primary rounded-5">
+            </form>
+          </div>
+          <div class=" col-md-4">
+            <div class="icons d-flex justify-content-center">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>  
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-google"></i></a>
+              <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        
+        </div>
+        <p class="copyright my-4 text-white  ">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </div>
+  </footer class="bg-primary">
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <!-- <script src="JS/script.js"></script> -->
+  <script src="JS/motaz.js"></script>
+</body>
+
+</html>
